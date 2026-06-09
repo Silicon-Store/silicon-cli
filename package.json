@@ -1,0 +1,29 @@
+{
+  "name": "siliconstore-cli",
+  "version": "1.0.0",
+  "description": "Shop the web from your terminal and any AI agent — search products, compare prices, and look up product details. Sign in once, no API keys.",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://github.com/Silicon-Store/silicon-cli",
+  "repository": { "type": "git", "url": "git+https://github.com/Silicon-Store/silicon-cli.git" },
+  "bugs": { "url": "https://github.com/Silicon-Store/silicon-cli/issues" },
+  "bin": {
+    "silicon": "dist/index.js"
+  },
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "open": "^10.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  },
+  "keywords": ["silicon", "cli", "shopping", "price-comparison", "product-search", "online-shopping", "commerce", "ecommerce", "ai", "agent", "agentic", "agentic-commerce", "mcp"]
+}
