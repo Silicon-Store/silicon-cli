@@ -1,5 +1,9 @@
 # Silicon CLI
 
+> **🚧 Under active development — not yet complete.** This is a work in progress:
+> commands, flags, and sign-in flow may change, and some features aren't wired up
+> yet. Not production-ready.
+
 Shop the web from your terminal — and from any AI agent. **Sign in once, no API
 keys to manage.** The CLI is the workhorse behind the [Silicon Skills](https://github.com/silicon-store/silicon-skills)
 and the foundation the agent-native surfaces share.
